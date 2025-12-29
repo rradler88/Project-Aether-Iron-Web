@@ -88,7 +88,7 @@ export default function App() {
                           <ul className="list-none space-y-2 bg-slate-900/50 p-6 border border-slate-800">
                              {MISSION_DATA.situation.map((item, i) => (
                                <li key={i} className="flex gap-3">
-                                 <span className="text-red-500 mt-1">>></span>
+                                 <span className="text-red-500 mt-1">&gt;&gt;</span>
                                  {item}
                                </li>
                              ))}
@@ -581,7 +581,7 @@ export default function App() {
                      <div key={i} className="flex flex-col border-b border-slate-800 pb-4 last:border-0">
                        <span className="text-cyan-500 font-bold font-serif text-lg mb-1">{item.original}</span>
                        <span className="text-slate-400 text-base">
-                         <span className="text-slate-600 mr-2">>></span>
+                         <span className="text-slate-600 mr-2">&gt;&gt;</span>
                          {item.reskin}
                        </span>
                      </div>
