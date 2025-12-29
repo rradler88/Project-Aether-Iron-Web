@@ -226,7 +226,7 @@ export const SPECIES: SpeciesEntry[] = [
     srdStats: 'Dwarf (Mountain/Hill)',
     description: 'Sie leben nicht in gemütlichen Hallen, sondern in klaustrophobischen Industriestollen nahe dem Erdkern. Sie sind blass, tragen oft Schutzbrillen wegen der Lichtempfindlichkeit und sind Experten für Ichor-Abbau. Viele leiden an "Tiefen-Zittern" (einer leichten Ichor-Vergiftung).',
     variants: [
-        { name: 'Kultur', desc: 'Sie beten oft heimlich zu Ferrus (Gott der Maschine/Schmiedekunst) als ihren Beschützer.' }
+        { name: 'Kultur', desc: 'Sie beten oft zu Ferrus (Gott der Maschine/Schmiedekunst) als ihren Beschützer.' }
     ]
   },
   { 
@@ -310,7 +310,7 @@ export const CLASSES: ClassEntry[] = [
         name: 'Kämpfer',
         title: 'Der Soldat / Söldner',
         role: 'Waffen-Experte',
-        flavor: 'Der Profi. Du verlässt dich auf Stahl und Schwarzpulver, nicht auf Magie. Armbrüste können als Bolzenschussgeräte oder primitive Gewehre (Musketen) beschrieben werden. Schwerter sind oft aus Industrieschrott geschliffen.'
+        flavor: 'Der Profi. Du verlässt dich auf Stahl, Schusswaffen und mit entsprechenden Ressourcen auf die beste Thaumatech, nicht auf Magie.'
     },
     {
         id: 'monk',
@@ -434,7 +434,7 @@ export const ALMANACH_CONTENT: AlmanachSection[] = [
       },
       {
         title: "DIE AETHER-GILDE (Die Technokraten)",
-        text: "Ein Bund aus Wissenschaftlern (oft Gnome und Vedalken), die das Monopol auf Thaumatech haben.",
+        text: "Ein Bund aus Wissenschaftlern, die das Monopol auf Thaumatech haben.",
         list: [
           { label: "Anführer", content: "Arch-Mechanist Zylas. Ein Genie, das Moral für eine ineffiziente Schwäche hält." },
           { label: "Agenda", content: "Fortschritt um jeden Preis. Sie sehen Ethik als Hindernis. Sie hassen die Inquisition, weil diese 'wertvolle Subjekte' (Magier) verbrennt, anstatt sie zu sezieren." }
@@ -641,7 +641,7 @@ export const HAZE_LEVELS = [
 export const HAZE_RULES = {
   increase: [
     'Kritischer Treffer durch ein Monster mit "Ichor"-Tag.',
-    'Fehlschlag beim Zaubern von "Wilder Magie" (Ichor-Magie).',
+    'Fehlschlag beim Zaubern von "Gezeichneter Magie".',
     'Kontakt mit rohem Ichor oder Fallen auf 0 HP in verseuchter Zone.',
     'Freiwillige Nutzung von Aether-Burn.'
   ],
